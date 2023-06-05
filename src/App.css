@@ -1,0 +1,269 @@
+/* App.css */
+.wrapper {
+    letter-spacing: .1rem;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f9e2;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wrapper-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.logo {
+    height: 520px;
+    width: auto;
+}
+
+.header-quote {
+    margin: 20px 0;
+    font-size: 21px;
+    text-align: center;
+    color: #333;
+    font-family: 'Roboto Mono', sans-serif;
+    margin-bottom: 1rem; /* Add this line */
+}
+
+.header-buttons {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+}
+
+blockquote {
+    margin: 20px 0;
+    font-size: 21px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f4f9e2;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title-block {
+    background-color: #f0facd; /* Set your desired background color here */
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #555;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.how-it-works-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f0facd;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif; /* Замените на имя шрифта */
+}
+
+.section-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    color: #555;
+    font-family: 'Roboto Mono', monospace; /* Шрифт Roboto Mono */
+}
+
+.thermo-image {
+    max-width: 525px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Proof Section */
+.proof-section {
+    background-color: #f4f9e2;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.test-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.test-item {
+    margin-bottom: 40px;
+}
+
+.test-item-wrapper {
+    background-color: #f0facd; /* Set your desired background color here */
+    padding: 20px;
+}
+
+.test-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.test-findings {
+    font-size: 18px;
+    color: #555;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Benefit Section */
+.benefit-section {
+    background-color: #f0facd;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.battery-image {
+    max-width: 525px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f4f9e2;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about-description-wrapper {
+    background-color: #f0facd; /* Set your desired background color here */
+    padding: 20px;
+}
+
+.about-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f4f9e2;
+}
+
+.contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 0;
+    color: #555;
+    font-family: 'Roboto Mono', monospace; /* Шрифт Roboto Mono */
+}
+
+/* Footer */
+footer {
+    background-color: #f4f9e2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif; /* Замените на имя шрифта */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item {
+    margin: 0 10px;
+}
+
+.contact-item img {
+    height: 24px;
+    width: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contact-item a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    font-family: 'Roboto Mono', monospace; /* Шрифт Roboto Mono */
+}
+
+.footer-logo-img {
+    width: 80px;
+    height: 70px;
+}
+
