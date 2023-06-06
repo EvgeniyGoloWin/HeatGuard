@@ -72,16 +72,14 @@ export function App() {
                             manifold vortices as the air flows over the panel surface.
                         </p>
                         <img className="thermo-image" src={thermo} alt="Thermo"/>
-                        {/*<VideoPlayer id="video-player" ref={(ref) => (videoSectionRef = ref)}/>*/}
-                        <VideoPlayer
-                            videoSource="https://www.youtube.com/embed/mm5xVrMDqTE"
-                            autoplay={false}
-                            controls={true}
-                            className="custom-video-player"
-                        />
-
+                        <VideoPlayer id="video-player" ref={(ref) => (videoSectionRef = ref)}/>
+                        {/*<VideoPlayer*/}
+                        {/*    videoSource="https://www.youtube.com/embed/mm5xVrMDqTE"*/}
+                        {/*    autoplay={false}*/}
+                        {/*    controls={true}*/}
+                        {/*    className="custom-video-player"*/}
+                        {/*/>*/}
                     </div>
-
                 </section>
                 <section className="proof-section">
                     <div className="content-wrapper">
