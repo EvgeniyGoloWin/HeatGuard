@@ -2,7 +2,7 @@
   "name": "heat-guard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EvgeniyGoloWin.github.io/HeatGuard",
+  "homepage": "https://EvgeniyGoloWin.github.io/HeatGuard/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
