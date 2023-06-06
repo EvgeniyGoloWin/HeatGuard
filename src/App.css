@@ -4,41 +4,42 @@
 }
 
 /* Header Section */
-header {
-    display: flex;
+.header {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #f4f9e2;
     padding: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-.wrapper-logo {
+.header-content {
     display: flex;
-    justify-content: center;
-    margin-top: -50px;
+    justify-content: space-between;
 }
 
-.logo {
-    height: 520px;
-    width: auto;
+.left-content {
+    display: flex;
+    align-items: center;
 }
 
-.header-quote {
-    margin: 20px 0;
-    font-size: 21px;
-    text-align: center;
-    color: #333;
-    font-family: 'Roboto Mono', sans-serif;
-    margin-bottom: 1rem; /* Add this line */
+.header-logo {
+    width: 140px;
+    height: 115px;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .header-buttons {
-    margin-top: 1rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-.contact-button {
+.scroll-button {
+    margin-right: 10px;
     padding: 10px 20px;
     font-size: 18px;
     background-color: #555;
@@ -49,12 +50,20 @@ header {
     transition: transform 0.3s ease-in-out;
 }
 
-.contact-button:hover {
+.scroll-button:hover {
     transform: translateY(-2px);
 }
 
+.header-quote {
+    margin: 0 20px;
+    font-size: 21px;
+    text-align: center;
+    color: #333;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
 blockquote {
-    margin: 20px 0;
+    margin: 0;
     font-size: 21px;
     font-style: italic;
     text-align: center;
@@ -78,7 +87,7 @@ blockquote {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
@@ -86,7 +95,7 @@ blockquote {
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 18px;
     color: #555;
     font-family: 'Roboto Mono', monospace;
 }

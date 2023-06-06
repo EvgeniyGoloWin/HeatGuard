@@ -1,37 +1,51 @@
 import {useRef} from "react";
-import logo from '../src/assets/icon/HeatGuard-removebg-preview.png';
+import logo from '../src/assets/icon/new_logo-removebg-preview.png'
 import thermo from '../src/assets/icon/thermo.png';
 import battery from '../src/assets/icon/battery.png';
 import mail from '../src/assets/logo/mail.png';
 import phone from '../src/assets/logo/phone.png';
-import footerLogo from '../src/assets/icon/logo-footer-removebg-preview.png'
 import {Link} from 'react-scroll';
 import './App.css';
+import {VideoPlayer} from "./components/videoPlayer/VideoPlayer";
 
 export function App() {
+    let videoSectionRef = useRef(null);
+    let technologySectionRef = useRef(null);
+    let aboutSectionRef = useRef(null);
     let contactSectionRef = useRef(null);
+
     return (
         <div className="wrapper">
-            <header>
-                <div className="wrapper-logo">
-                    <img className="logo" src={logo} alt="Logo"/>
+            <header className="header">
+                <div className='header-content'>
+                    <div className='left-content'>
+                        <img className='header-logo' src={logo} alt='Logo'/>
+                    </div>
+                    <div className="right-content">
+                        <div className="header-buttons">
+                            <Link to="video-player" smooth={true} duration={600}>
+                                <button className="scroll-button">Video</button>
+                            </Link>
+                            <Link to="benefit-section" smooth={true} duration={600}>
+                                <button className="scroll-button">Technology</button>
+                            </Link>
+                            <Link to="about-section" smooth={true} duration={600}>
+                                <button className="scroll-button">About Us</button>
+                            </Link>
+                            <Link to="contact-section" smooth={true} duration={600}>
+                                <button className="scroll-button">Contact Us</button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
-                <div className="right-content">
                 <div className="header-quote">
                     <blockquote>
                         <p>
                             “It has long been known that the cheapest and cleanest unit of energy is the one you don’t
-                            need
-                            to use.”
+                            need to use.”
                         </p>
                         <cite>David Brooks, the Concord Monitor.</cite>
                     </blockquote>
-                </div>
-                <div className="header-buttons">
-                    <Link to="contact-section" smooth={true} duration={600}>
-                        <button className="contact-button">Contact Us</button>
-                    </Link>
-                </div>
                 </div>
             </header>
             <main>
@@ -58,10 +72,12 @@ export function App() {
                             manifold vortices as the air flows over the panel surface.
                         </p>
                         <img className="thermo-image" src={thermo} alt="Thermo"/>
+                        <VideoPlayer id="video-player" ref={(ref) => (videoSectionRef = ref)}/>
                     </div>
                 </section>
                 <section className="proof-section">
                     <div className="content-wrapper">
+                        <h2 className="section-title">Our proof from multiple tests</h2>
                         <ul className="test-list">
                             <li className="test-item">
                                 <div className="test-item-wrapper">
@@ -109,7 +125,7 @@ export function App() {
                         </ul>
                     </div>
                 </section>
-                <section className="benefit-section">
+                <section className="benefit-section" ref={(ref) => (technologySectionRef = ref)}>
                     <div className="content-wrapper">
                         <h2 className="section-title">The Key Benefit of HeatGuard Technology</h2>
                         <p className="section-description">
@@ -121,7 +137,7 @@ export function App() {
                         <img className="battery-image" src={battery} alt="Battery"/>
                     </div>
                 </section>
-                <section className="about-section">
+                <section className="about-section" ref={(ref) => (aboutSectionRef = ref)}>
                     <div className="content-wrapper">
                         <div className="about-description-wrapper">
                             <h2 className="section-title">About Us</h2>
@@ -160,7 +176,7 @@ export function App() {
                 </div>
                 <div className="footer-logo">
                     <p>© Copyright - HeatGuard 2023</p>
-                    <img className='footer-logo-img' src={footerLogo} alt="Footer-logo"/>
+                    {/*<img className='footer-logo-img' src={logo} alt="Footer-logo"/>*/}
                 </div>
             </footer>
         </div>
