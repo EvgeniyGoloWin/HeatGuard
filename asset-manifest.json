@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.372d5540.css",
-    "main.js": "/static/js/main.bb66981d.js",
-    "static/js/787.9543b756.chunk.js": "/static/js/787.9543b756.chunk.js",
-    "static/media/battery.png": "/static/media/battery.3db5d5419d2aafbb1c6d.png",
-    "static/media/thermo.png": "/static/media/thermo.34db6db875b2357a5559.png",
-    "static/media/logo-footer-removebg-preview.png": "/static/media/logo-footer-removebg-preview.1c7472da6078b82bd141.png",
-    "static/media/HeatGuard-removebg-preview.png": "/static/media/HeatGuard-removebg-preview.a9b229eaac658143d043.png",
-    "index.html": "/index.html",
-    "main.372d5540.css.map": "/static/css/main.372d5540.css.map",
-    "main.bb66981d.js.map": "/static/js/main.bb66981d.js.map",
-    "787.9543b756.chunk.js.map": "/static/js/787.9543b756.chunk.js.map"
+    "main.css": "/HeatGuard/static/css/main.1a2f21f7.css",
+    "main.js": "/HeatGuard/static/js/main.cadb0e84.js",
+    "static/js/787.9543b756.chunk.js": "/HeatGuard/static/js/787.9543b756.chunk.js",
+    "static/media/video smoke with sub.mp4": "/HeatGuard/static/media/video smoke with sub.b5d089dbec6a083bb363.mp4",
+    "static/media/battery.png": "/HeatGuard/static/media/battery.3db5d5419d2aafbb1c6d.png",
+    "static/media/new_logo-removebg-preview.png": "/HeatGuard/static/media/new_logo-removebg-preview.c094a74910a30a287d78.png",
+    "static/media/thermo.png": "/HeatGuard/static/media/thermo.34db6db875b2357a5559.png",
+    "index.html": "/HeatGuard/index.html",
+    "main.1a2f21f7.css.map": "/HeatGuard/static/css/main.1a2f21f7.css.map",
+    "main.cadb0e84.js.map": "/HeatGuard/static/js/main.cadb0e84.js.map",
+    "787.9543b756.chunk.js.map": "/HeatGuard/static/js/787.9543b756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.372d5540.css",
-    "static/js/main.bb66981d.js"
+    "static/css/main.1a2f21f7.css",
+    "static/js/main.cadb0e84.js"
   ]
 }
