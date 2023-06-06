@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HeatGuard/static/css/main.1a2f21f7.css",
+    "main.css": "/HeatGuard/static/css/main.924d6ce2.css",
     "main.js": "/HeatGuard/static/js/main.cadb0e84.js",
     "static/js/787.9543b756.chunk.js": "/HeatGuard/static/js/787.9543b756.chunk.js",
     "static/media/video smoke with sub.mp4": "/HeatGuard/static/media/video smoke with sub.b5d089dbec6a083bb363.mp4",
@@ -8,12 +8,12 @@
     "static/media/new_logo-removebg-preview.png": "/HeatGuard/static/media/new_logo-removebg-preview.c094a74910a30a287d78.png",
     "static/media/thermo.png": "/HeatGuard/static/media/thermo.34db6db875b2357a5559.png",
     "index.html": "/HeatGuard/index.html",
-    "main.1a2f21f7.css.map": "/HeatGuard/static/css/main.1a2f21f7.css.map",
+    "main.924d6ce2.css.map": "/HeatGuard/static/css/main.924d6ce2.css.map",
     "main.cadb0e84.js.map": "/HeatGuard/static/js/main.cadb0e84.js.map",
     "787.9543b756.chunk.js.map": "/HeatGuard/static/js/787.9543b756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a2f21f7.css",
+    "static/css/main.924d6ce2.css",
     "static/js/main.cadb0e84.js"
   ]
 }
