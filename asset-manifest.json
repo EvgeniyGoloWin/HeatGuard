@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/heat-guard/static/css/main.924d6ce2.css",
+    "main.css": "/heat-guard/static/css/main.9da318bf.css",
     "main.js": "/heat-guard/static/js/main.97e94d2b.js",
     "static/js/787.9543b756.chunk.js": "/heat-guard/static/js/787.9543b756.chunk.js",
     "static/media/video smoke with sub.mp4": "/heat-guard/static/media/video smoke with sub.b5d089dbec6a083bb363.mp4",
@@ -8,12 +8,12 @@
     "static/media/new_logo-removebg-preview.png": "/heat-guard/static/media/new_logo-removebg-preview.c094a74910a30a287d78.png",
     "static/media/thermo.png": "/heat-guard/static/media/thermo.34db6db875b2357a5559.png",
     "index.html": "/heat-guard/index.html",
-    "main.924d6ce2.css.map": "/heat-guard/static/css/main.924d6ce2.css.map",
+    "main.9da318bf.css.map": "/heat-guard/static/css/main.9da318bf.css.map",
     "main.97e94d2b.js.map": "/heat-guard/static/js/main.97e94d2b.js.map",
     "787.9543b756.chunk.js.map": "/heat-guard/static/js/787.9543b756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.924d6ce2.css",
+    "static/css/main.9da318bf.css",
     "static/js/main.97e94d2b.js"
   ]
 }
