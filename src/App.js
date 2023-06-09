@@ -1,53 +1,18 @@
 import {useRef} from "react";
-import logo from '../src/assets/icon/new_logo-removebg-preview.png'
 import thermo from '../src/assets/icon/thermo.png';
 import battery from '../src/assets/icon/battery.png';
-import mail from '../src/assets/logo/mail.png';
-import phone from '../src/assets/logo/phone.png';
-import {Link} from 'react-scroll';
-import './App.css';
 import {VideoPlayer} from "./components/videoPlayer/VideoPlayer";
+import './App.css';
+import {Header} from "./components/header/header";
+import {Footer} from "./components/footer/Footer";
 
-export function App() {
+
+export function App(technologySectionRef,aboutSectionRef) {
     let videoSectionRef = useRef(null);
-    let technologySectionRef = useRef(null);
-    let aboutSectionRef = useRef(null);
-    let contactSectionRef = useRef(null);
 
     return (
         <div className="wrapper">
-            <header className="header">
-                <div className='header-content'>
-                    <div className='left-content'>
-                        <img className='header-logo' src={logo} alt='Logo'/>
-                    </div>
-                    <div className="right-content">
-                        <div className="header-buttons">
-                            <Link to="video-player" smooth={true} duration={600}>
-                                <button className="scroll-button">Video</button>
-                            </Link>
-                            <Link to="benefit-section" smooth={true} duration={600}>
-                                <button className="scroll-button">Technology</button>
-                            </Link>
-                            <Link to="about-section" smooth={true} duration={600}>
-                                <button className="scroll-button">About Us</button>
-                            </Link>
-                            <Link to="contact-section" smooth={true} duration={600}>
-                                <button className="scroll-button">Contact Us</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="header-quote">
-                    <blockquote>
-                        <p>
-                            “It has long been known that the cheapest and cleanest unit of energy is the one you don’t
-                            need to use.”
-                        </p>
-                        <cite>David Brooks, the Concord Monitor.</cite>
-                    </blockquote>
-                </div>
-            </header>
+            <Header/>
             <main>
                 <section className="hero-section">
                     <div className="hero-content">
@@ -73,12 +38,6 @@ export function App() {
                         </p>
                         <img className="thermo-image" src={thermo} alt="Thermo"/>
                         <VideoPlayer id="video-player" ref={(ref) => (videoSectionRef = ref)}/>
-                        {/*<VideoPlayer*/}
-                        {/*    videoSource="https://www.youtube.com/embed/mm5xVrMDqTE"*/}
-                        {/*    autoplay={false}*/}
-                        {/*    controls={true}*/}
-                        {/*    className="custom-video-player"*/}
-                        {/*/>*/}
                     </div>
                 </section>
                 <section className="proof-section">
@@ -166,25 +125,7 @@ export function App() {
                     </div>
                 </section>
             </main>
-            <footer>
-                <div className="contact-section" ref={(ref) => (contactSectionRef = ref)}>
-                    <h2 className="contact-title">Contact Us</h2>
-                    <div className="contact-info">
-                        <div className="contact-item">
-                            <img src={mail} alt='mail'/>
-                            <a href="mailto:info@heatguard.io">info@heatguard.io</a>
-                        </div>
-                        <div className="contact-item">
-                            <img src={phone} alt='Phone'/>
-                            <a href="tel:+4560213269">+4560213269</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="footer-logo">
-                    <p>© Copyright - HeatGuard 2023</p>
-                    {/*<img className='footer-logo-img' src={logo} alt="Footer-logo"/>*/}
-                </div>
-            </footer>
+            <Footer/>
         </div>
     );
 }
